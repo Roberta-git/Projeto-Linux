@@ -10,7 +10,7 @@
 
 *Criação da VPC pelo console
 
-![](img/print_exemplo.png)
+![](Captura de tela 2025-07-24 165136.png)
 
 
 
