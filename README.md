@@ -2,14 +2,14 @@
   No projeto a seguir, será detalhado os passos de como criar uma VPC,com monitoramento automatizado.
 
 ### Índice
-1.Configuração da VPC
-2.Criação e configuração do servidor Web
-3.Monitoramento do scritp via Discord
-4.Teste e avalição do processo
+1.Configuração da VPC e criação do ambiente
+2.Monitoramento do scritp via Discord
+3.Teste e avaliação do programa
 
-### 1.Configuração da VPC
-#### 1.1 Criar VPC
+### 1.Configuração da VPC e criação do ambiente
 
-- No console da AWS pesquise por VPC e clique em criar VPC
-- Defina o nome e o Bloco CIDR IPv4
+*Criação da VPC pelo console
+
+
+
 
