@@ -1,4 +1,4 @@
-# Projeto-Linux
-Projeto
+# Documentação do Projeto-Linux
+No projeto a seguir, será detalhado os passos de como criar uma VPC,com monitoramento automatizado.
 
-O Projeto Linux foi desenvolvido utilizando a IA Perplexy como ferramenta de suporte, além da ajuda dos colegas de trilha e instrutores.
+
