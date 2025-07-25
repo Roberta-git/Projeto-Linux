@@ -25,8 +25,16 @@
 
  <img src="https://github.com/user-attachments/assets/426db276-5c62-4b95-b6d7-17648f67fba6"  alt="" width="600"/>
 </p>
- <img src="https://github.com/user-attachments/assets/66fb25d5-6a36-45a3-8895-7a1e16e2af 47"  alt="" width="600"/>
+ <img src="https://github.com/user-attachments/assets/66fb25d5-6a36-45a3-8895-7a1e16e2af47"  alt="" width="600"/>
 </p>
+
+1.4 Configuração da tabela de rotas para a sub-red pública
+
+<img src="https://github.com/user-attachments/assets/426db276-5c62-4b95-b6d7-17648f67fba6"  alt="" width="600"/>
+</p>
+ <img src="https://github.com/user-attachments/assets/66fb25d5-6a36-45a3-8895-7a1e16e2af47"  alt="" width="600"/>
+</p>
+
 
 
 
