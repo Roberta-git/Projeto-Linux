@@ -15,7 +15,7 @@
 
 *Implementação de duas sub-redes privadas e duas sub-redes públicas
 <p align="center">
-  <img src=<img width="1278" height="473" alt="Image" src="https://github.com/user-attachments/assets/49e44077-4c83-48f3-a6aa-ba7e880d3d77" /> alt="" width="700"/>
+  <img src="URL-da-imagem" alt="Descrição" width="300"/>
 </p>
 
 
