@@ -9,6 +9,7 @@
 ### 1.Configuração da VPC e criação do ambiente
 
 1.1 Criação da VPC pelo console
+
   <img src="https://github.com/user-attachments/assets/3737f3cc-a934-4770-a77f-28023de5ddd1" alt="" width="600"/>
 </p>
 
@@ -20,6 +21,11 @@
  <img src="https://github.com/user-attachments/assets/3925a0de-2a5d-4ba3-816e-5bac64a0169c"  alt="Sub-rede sendo criada" width="600"/>
 </p>
 
+1.3 Criação e associação do Gateway com a VPC para o acesso à internet
+ <img src="https://github.com/user-attachments/assets/3925a0de-2a5d-4ba3-816e-5bac64a0169c"  alt="" width="600"/>
+</p>
+ <img src="https://github.com/user-attachments/assets/3925a0de-2a5d-4ba3-816e-5bac64a0169c"  alt="" width="600"/>
+</p>
 
 
 
