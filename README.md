@@ -14,6 +14,9 @@
 </p>
 
 *Implementação de duas sub-redes privadas e duas sub-redes públicas
+<p align="center">
+  <img src="" alt="" width="700"/>
+</p>
 
 
 
