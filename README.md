@@ -9,7 +9,12 @@
 ### 1.Configuração da VPC e criação do ambiente
 
 *Criação da VPC pelo console
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3737f3cc-a934-4770-a77f-28023de5ddd1" alt="" width="700"/>
+</p>
 
-![](Captura de tela 2025-07-24 165136.png)
+*Implementação de duas sub-redes privadas e duas sub-redes públicas
+
+
 
 
