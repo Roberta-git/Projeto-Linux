@@ -9,17 +9,15 @@
 ### 1.Configuração da VPC e criação do ambiente
 
 1.1 Criação da VPC pelo console
-<p align="center">
   <img src="https://github.com/user-attachments/assets/3737f3cc-a934-4770-a77f-28023de5ddd1" alt="" width="600"/>
 </p>
 
 1.2 Implementação de duas sub-redes privadas e duas sub-redes públicas
-<p align="center">
   <img src="https://github.com/user-attachments/assets/a19ae5fa-617d-475d-9479-decd6e231dca"  alt="Sub-rede sendo criada" width="600"/>
 </p>
 
    * 4 Sub-redes criadas
- <img src="https://github.com/user-attachments/assets/a19ae5fa-617d-475d-9479-decd6e231dca"  alt="Sub-rede sendo criada" width="600"/>
+ <img src="https://github.com/user-attachments/assets/3925a0de-2a5d-4ba3-816e-5bac64a0169c"  alt="Sub-rede sendo criada" width="600"/>
 </p>
 
 
