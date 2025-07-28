@@ -4,8 +4,11 @@
 ### Índice
 
 1.Configuraçãodo ambiente
+
 2.Instalaçao do servidor Web
+
 3.Monitoramento do scritp via Discord
+
 3.Teste e avaliação do programa
 
 ### 1. Configuração do ambiente
