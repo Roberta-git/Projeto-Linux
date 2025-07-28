@@ -104,6 +104,11 @@ Após a verificação, com o comando sudo systemctl stop nginx, o site saiu do a
  
 
 Para o site ser reativado foi usado o comanodo sudo systemctl start ngnix.
+
+
+ <img src="https://github.com/user-attachments/assets/2b864a46-60a1-4444-808d-e8376eafdf43"  alt="" width="700"/>
+</p>
+
  
 
 
