@@ -56,7 +56,7 @@ Para criar a página foi usado o comando sudo nano /var/www/html/index.html para
 
 Para a criação do script foi executado o comando sudo nano /usr/local/bin/monitorar_site.sh.
 
-<img src=""  alt="" width="700"/>
+<img src="https://github.com/user-attachments/assets/96129e00-a5de-46c0-974f-d30de7717fdd"  alt="" width="700"/>
 </p>
 
 
