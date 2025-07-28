@@ -56,6 +56,8 @@
 
   * Escolha uma AMI (Decidi usar Ubunto por estar mais habituada com a interface).
 
+<img src=""  alt="" width="600"/>
+</p>
 
 
 
