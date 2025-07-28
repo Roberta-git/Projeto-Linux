@@ -106,7 +106,7 @@ Após a verificação, com o comando `sudo systemctl stop nginx`, o site saiu do
 
  
 
-Para o sito ser reativado foi usado o comanodo `sudo systemctl start ngnix`.
+Para o site ser reativado foi usado o comanodo `sudo systemctl start ngnix`.
 
 
  <img src="https://github.com/user-attachments/assets/6091d89b-6c4a-402a-8cad-2c7d21d9b54a"  alt="" width="700"/>
