@@ -11,8 +11,28 @@
 
 Na configuração do ambiente, foram criados a VPC, sub-redes (duas públicas e duas privadas), internt Gateway, tabelas de rotas e a instânica (liberando portas 22 (SSH) e 80 (http)).
 
- <img src="https://github.com/user-attachments/assets/3737f3cc-a934-4770-a77f-28023de5ddd1" alt="" width="600"/>
+ <img src="https://github.com/user-attachments/assets/87ce19e1-a15b-4309-b81a-5931c8450a05" alt="" width="700"/>
 </p>
+
+
+### 2. Instalação do servidor Web
+
+2.1 Conexão via ssh
+Após a configuração do amiente, usando o terminal, foi aberto uma conexão no servidor da AWS via SSH, utilizando minha chave privada e o Ip elástico e realizado a instalação do Nginx por meio dos seguintes comandos:
+  *sudo apt update
+  *sudo apt upgrade -y
+  *sudo apt install nginx -y
+  *sudo systemctl start nginx
+  *sudo systemctl status nginx
+
+  <img src=""" width="700"/>
+</p>
+
+
+
+
+
+
 
 
 
