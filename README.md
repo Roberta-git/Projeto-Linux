@@ -74,10 +74,36 @@ Para editar o arquivo de agendaemento de tarefas foi utilizado o comando sudo cr
 Para testar o programa, foi verificado se o site estava no ar através do comando cat var/log/monitoramento.log.
 
 
-<img src="https://github.com/user-attachments/assets/f957967e-13c4-498c-a3c0-a47b8fe7ad45"  alt="" width="700"/>
+<img src="https://github.com/user-attachments/assets/37e69f70-ebb0-4c43-bfbd-fcfb1041b661"  alt="" width="700"/>
 </p>
 
 
+Após a verificação, com o comando sudo systemctl stop nginx, o site saiu do ar, gerando a informação de "site fora do ar" no log e enviado um alerta para o servidor do Discord.
+
+
+ *Site fora do ar:
+
+
+<img src=""  alt="" width="700"/>
+</p>
+
+
+
+ *Registro do log
+
+ <img src=""  alt="" width="700"/>
+</p>
+
+
+
+ *Mensagem automática no Discord
+
+ <img src=""  alt="" width="700"/>
+</p>
+
+ 
+
+ 
 
 
 
