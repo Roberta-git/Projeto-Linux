@@ -68,6 +68,8 @@ Para tornar o script executável foi usado o comando sudo chmod +x /usr/local/bi
 Para editar o arquivo de agendaemento de tarefas foi utilizado o comando sudo crontab -e e inserido o texto * * * * * /usr/local/bin/monitorar_site.sh que indica que o script de monitoramento rodará automaticamente a cada minuto.
 
 
+### 3.Teste e avaliação do programa
+
 
 
 
