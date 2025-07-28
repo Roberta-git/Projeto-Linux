@@ -53,11 +53,20 @@ Para criar a página foi usado o comando sudo nano /var/www/html/index.html para
 
 
 ### 3. Monitoramento do script via Discord
+3.1 Criação do script
 
-Para a criação do script foi executado o comando sudo nano /usr/local/bin/monitorar_site.sh.
+Para a criação do script de monitoramento foi executado o comando sudo nano /usr/local/bin/monitorar_site.sh.
 
 <img src="https://github.com/user-attachments/assets/96129e00-a5de-46c0-974f-d30de7717fdd"  alt="" width="700"/>
 </p>
+
+
+Para tornar o script executável foi usado o comando sudo chmod +x /usr/local/bin/monitorar_site.sh.
+
+3.2 Agendamento no crontab
+Para editar o arquivo de agendaemento de tarefas foi utilizado o comando sudo crontab -e e inserido o texto * * * * * /usr/local/bin/monitorar_site.sh que indica que o script de monitoramento rodará automaticamente a cada minuto.
+
+
 
 
 
