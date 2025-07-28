@@ -89,9 +89,9 @@ Após a verificação, com o comando sudo systemctl stop nginx, o site saiu do a
 
 
 
- *Registro do log
+ *Registro do Log
 
- <img src=""  alt="" width="700"/>
+ <img src="https://github.com/user-attachments/assets/b200c144-70b2-41a3-bfc0-2fb055f78486"  alt="" width="700"/>
 </p>
 
 
