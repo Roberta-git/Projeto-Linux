@@ -32,7 +32,7 @@ Após a configuração do amiente, usando o terminal, foi aberto uma conexão no
 2.2 Criação da página HTML
 Para criar a página foi usado o comando sudo nano /var/www/html/index.html para abrir o arquivo index e editar o código da página.
 
-<img src=""  alt="" width="700"/>
+<img src="https://github.com/user-attachments/assets/c7fa9104-301f-45ea-a941-698e4c702430"  alt="" width="700"/>
 </p>
 
 
