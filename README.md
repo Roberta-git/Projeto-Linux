@@ -84,7 +84,7 @@ Após a verificação, com o comando sudo systemctl stop nginx, o site saiu do a
  *Site fora do ar:
 
 
-<img src=""  alt="" width="700"/>
+<img src="https://github.com/user-attachments/assets/c7c6a91d-bc87-4617-bb27-43aa63065b61"  alt=""   width="700"/>
 </p>
 
 
