@@ -40,6 +40,7 @@ Após a configuração do amiente, usando o terminal, foi aberto uma conexão no
 
 
 2.2 Criação da página HTML
+
 Para criar a página foi usado o comando `sudo nano /var/www/html/index.html` para abrir o arquivo index e editar o código da página.
 
 
