@@ -56,9 +56,14 @@
 
   * Escolha uma AMI (Decidi usar Ubunto por estar mais habituada com a interface).
 
-<img src=""  alt="" width="600"/>
+<img src="https://github.com/user-attachments/assets/02a023cc-c737-43f7-a77b-e262e5c3fdf7"  alt="" width="600"/>
 </p>
 
+
+  * Selecione sua VPC, uma sub-rede pública e ative o Ip público automático, para que a instância possa ser acessada pela internet.
+
+<img src=""  alt="" width="600"/>
+</p>
 
 
 
