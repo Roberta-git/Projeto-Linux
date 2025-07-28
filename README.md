@@ -44,12 +44,19 @@
 ### 2.Instalação do servidor Web
 
 2.1 Criação da instância
+
   *Acesse Ec2 e clique em criar instânica 
+  
   *Coloque as tags fornecidas:
 
-  <img src="https://github.com/user-attachments/assets/3eb2476f-f1f3-4174-b95e-333830d1ae1e"  alt="" width="600"/>
+  <img src="https://github.com/user-attachments/assets/ab193f40-7350-4e62-9e3a-81c2867d2d0b"  alt="" width="600"/>
 </p>
- 
+
+
+
+  * Escolha uma AMI (Decidi usar Ubunto por estar mais habituada com a interface).
+
+
 
 
 
