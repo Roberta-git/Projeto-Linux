@@ -1,5 +1,6 @@
-# Documentação do Projeto-Linux
- > No documento a seguir, será detalhado os passos de como criar site com monitoramento automatizado.
+# Projeto Linux: Monitoramento Automatizado de Site em AWS
+ > No documento a seguir, será detalhado os passos de como criar site com monitoramento automatizado, que registra logs e envia alertas via webhook do discord.
+
 
 ### Índice
 
