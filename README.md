@@ -27,7 +27,7 @@ Na configuração do ambiente, foram criados a VPC, sub-redes (duas públicas e 
 ### 2. Instalação do servidor Web
 
 2.1 Conexão via ssh
-Após a configuração do amiente, usando o terminal, foi aberto uma conexão no servidor da AWS via SSH, utilizando minha chave privada e o Ip elástico e realizado a instalação do Nginx por meio dos seguintes comandos:
+Após a configuração do ambiente, usando o terminal, foi aberto uma conexão no servidor da AWS via SSH através da minha chave privada e o Ip elástico e realizado a instalação do Nginx por meio dos seguintes comandos:
 
   *`sudo apt update`
   
