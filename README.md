@@ -17,7 +17,7 @@
 - **IP Elástico**: Associado à instância para acesso fixo e público.
 - **Nginx**: Servidor web.
 - **Webhook do Discord**: Para envio de alertas.
-- **cron**: Agendador de tarefas.
+- **Cron**: Agendador de tarefas.
 
 
 
