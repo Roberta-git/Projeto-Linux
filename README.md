@@ -56,7 +56,7 @@
 &nbsp;&nbsp; Para criar a página foi usado o comando `sudo nano /var/www/html/index.html` para abrir o arquivo index e editar o código da página.
 
 
-<img src="https://github.com/user-attachments/assets/c7fa9104-301f-45ea-a941-698e4c702430"  alt="" width="700"/>
+<img src="https://github.com/user-attachments/assets/5b1c8afa-5b5b-44f8-a745-0d061856018d"  alt="" width="700"/>
 </p>
 
 
