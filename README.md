@@ -4,21 +4,32 @@
 
 ### Índice
 
-1.Configuraçãodo ambiente
+  1. Configuraçãodo ambiente
 
-2.Instalaçao do servidor Web
+  2. Instalaçao do servidor Web
+ 
+  3. Monitoramento do scritp via Discord
 
-3.Monitoramento do scritp via Discord
+  4. Teste e avaliação do programa
 
-4.Teste e avaliação do programa
+  5. Considerações finais
 
-5.Considerações finais
+
+
+### Ferramentas utilizadas
+- **Amazon EC2**: Servidor Ubuntu.
+- **IP Elástico**: Associado à instância para acesso fixo e público.
+- **Nginx**: Servidor web.
+- **Webhook do Discord**: Para envio de alertas.
+- **cron**: Agendador de tarefas.
+
+
 
 
 
 ### 1. Configuração do ambiente
 
-Na configuração do ambiente, foram criados a VPC, sub-redes (duas públicas e duas privadas), internt Gateway, tabelas de rotas e a instânica (liberando portas 22 (SSH) e 80 (http)).
+  Na configuração do ambiente, foram criados a VPC, sub-redes (duas públicas e duas privadas), internt Gateway, tabelas de rotas e a instânica (liberando portas 22 (SSH) e 80 (http)).
 
  <img src="https://github.com/user-attachments/assets/87ce19e1-a15b-4309-b81a-5931c8450a05" alt="" width="700"/>
 </p>
@@ -26,7 +37,7 @@ Na configuração do ambiente, foram criados a VPC, sub-redes (duas públicas e 
 
 ### 2. Instalação do servidor Web
 
-2.1 Conexão via ssh
+  2.1. Conexão via ssh
 Após a configuração do ambiente, usando o terminal, foi aberto uma conexão no servidor da AWS via SSH através da minha chave privada e o Ip elástico e realizado a instalação do Nginx por meio dos seguintes comandos:
 
   *`sudo apt update`
