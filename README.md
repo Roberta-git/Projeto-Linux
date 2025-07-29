@@ -10,7 +10,11 @@
 
 3.Monitoramento do scritp via Discord
 
-3.Teste e avaliação do programa
+4.Teste e avaliação do programa
+
+5.Considerações finais
+
+
 
 ### 1. Configuração do ambiente
 
@@ -74,7 +78,7 @@ Para tornar o script executável foi usado o comando `sudo chmod +x /usr/local/b
 Para editar o arquivo de agendaemento de tarefas foi utilizado o comando `sudo crontab -e` e inserido o texto `* * * * * /usr/local/bin/monitorar_site.sh` que indica que o script de monitoramento rodará automaticamente a cada minuto.
 
 
-### 3.Teste e avaliação do programa
+### 4.Teste e avaliação do programa
 
 Para testar o programa, foi verificado se o site estava no ar através do comando `cat var/log/monitoramento.log`.
 
@@ -117,7 +121,7 @@ Para o site ser reativado foi usado o comando `sudo systemctl start ngnix`.
 
 
 
-### Considerações Finais
+### 5.Considerações Finais
 Com a realização do projeto foi possivel aprender sobre os comandos básicos do Linux, além de automação com Shell Script no monitoramento de servidores com conexão via Discord e integração de ferramentas modernas.
 
 
