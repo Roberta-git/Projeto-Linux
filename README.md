@@ -28,10 +28,11 @@
 1.1. Criação da VPC e sub-redes
 
 &nbsp;&nbsp; Para criar a VPC, acesse o painel VPC no console da AWS e clique em criar VPC. 
+
 &nbsp;&nbsp; *Insira um nome para sua VPC e um Ip (terminar)
 
 
- <img src="https://github.com/user-attachments/assets/5c8a6c20-23bd-48d8-8524-635f9da4486b"  alt="" width="700"/>
+ <img src="https://github.com/user-attachments/assets/903117d2-ce77-44e7-a7cb-d584e6aec882"  alt="" width="700"/>
 </p>
 
 
