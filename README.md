@@ -61,9 +61,17 @@
 &nbsp;&nbsp; Em "Tabela de Rotas", crie ou edite uma tabela, adicionando um destino para qualquer endereço Ip e o alvo (sua gateway).
 
 
-<img src="https://github.com/user-attachments/assets/40cb4ca9-6341-4aa7-a239-90cd04d1b593"  alt="" width="700"/>
+<img src="https://github.com/user-attachments/assets/1ff73393-847d-4afd-9ca3-b79a18fe93f7"  alt="" width="700"/>
 </p>
 
+
+1.4 Criação da Instância
+
+&nbsp;&nbsp; No painel da Ec2, clique em "Executar instância", e adicione:
+&nbsp;&nbsp; *Nomes e tags
+&nbsp;&nbsp; *AMI (Escolhi usar o servidor Ubuntu)
+&nbsp;&nbsp; *Tipo de instância (t2.micro)
+&nbsp;&nbsp; Par de chaves (que será usado mais tarde, quando usarmos o terminal).
 
 
 ### 2. Instalação do servidor Web
