@@ -54,7 +54,7 @@
 &nbsp;&nbsp; Ainda no painel da VPC, vá em "Gateways de Internet", crie uma gateway com um nome simbólico e associe à VPC para permitir a conexão dos recursos com a internet.
 
 
-<img src="https://github.com/user-attachments/assets/40cb4ca9-6341-4aa7-a239-90cd04d1b593"  alt="" width="700"/>
+<img src="https://github.com/user-attachments/assets/074211af-80cc-4754-bdf5-217a2904e3e7"  alt="" width="700"/>
 </p>
 
 
