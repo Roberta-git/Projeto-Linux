@@ -90,7 +90,7 @@
 &nbsp;&nbsp; *Configure o Grupo de Segurança, liberando uma porta 22(SSH) com o tipo de origem "Meu Ip" e uma porta 80(HTTP) como o tipo de origem "Qualquer lugar".
 
 
-<img src="https://github.com/user-attachments/assets/1ff73393-847d-4afd-9ca3-b79a18fe93f7"  alt="" width="700"/>
+<img src="https://github.com/user-attachments/assets/4f5f08fe-cd6f-49c8-923f-260acc34e385"  alt="" width="700"/>
 </p>
 
 
@@ -100,7 +100,7 @@
 
 2.1. Conexão via ssh
 
-&nbsp;&nbsp; Após a configuração do ambiente, usando o terminal, foi aberto uma conexão no servidor da AWS via SSH através da minha chave privada e o Ip elástico e realizado a instalação do Nginx por meio dos seguintes comandos:
+&nbsp;&nbsp; Após a configuração do ambiente, usando o terminal, abra uma conexão no servidor da AWS via SSH através da chave privada e o Ip elástico e realizae a instalação do Nginx por meio dos seguintes comandos:
 
   *`sudo apt update`
   
@@ -119,7 +119,7 @@
 
 2.2 Criação da página HTML
 
-&nbsp;&nbsp; Para criar a página foi usado o comando `sudo nano /var/www/html/index.html` para abrir o arquivo index e editar o código da página.
+&nbsp;&nbsp; Para criar a página use o comando `sudo nano /var/www/html/index.html` para abrir o arquivo index e editar o código da página.
 
 
 <img src="https://github.com/user-attachments/assets/5b1c8afa-5b5b-44f8-a745-0d061856018d"  alt="" width="700"/>
@@ -138,29 +138,29 @@
 
 3.1 Criação do script
 
-&nbsp;&nbsp; Para a criação do script de monitoramento foi executado o comando `sudo nano /usr/local/bin/monitorar_site.sh`.
+&nbsp;&nbsp; Para a criação do script de monitoramento utilize o comando `sudo nano /usr/local/bin/monitorar_site.sh`.
 
 <img src="https://github.com/user-attachments/assets/890e2aba-ca30-4a22-9889-655df4442040"  alt="" width="700"/>
 </p>
 
 
-&nbsp;&nbsp; Para que o script possa ser executado, foi usado o comando `sudo chmod +x /usr/local/bin/monitorar_site.sh`.
+&nbsp;&nbsp; Para que o script possa ser executado, foi use o comando `sudo chmod +x /usr/local/bin/monitorar_site.sh`.
 
 3.2 Agendamento no crontab
 
-&nbsp;&nbsp; Para editar o arquivo de agendamento de tarefas foi utilizado o comando `sudo crontab -e` e inserido o texto `* * * * * /usr/local/bin/monitorar_site.sh` que indica que o script de monitoramento rodará automaticamente a cada minuto.
+&nbsp;&nbsp; Para editar o arquivo de agendamento de tarefas foi utilize `sudo crontab -e` e insira o texto `* * * * * /usr/local/bin/monitorar_site.sh` que indica que o script de monitoramento rodará automaticamente a cada minuto.
 
 
 ### 4. Teste e avaliação do programa
 
-&nbsp;&nbsp; Para testar o programa, foi verificado se o site estava no ar através do comando `cat var/log/monitoramento.log`.
+&nbsp;&nbsp; Para testar o programa, verifique se o site está no ar através do comando `cat var/log/monitoramento.log`.
 
 
 <img src="https://github.com/user-attachments/assets/37e69f70-ebb0-4c43-bfbd-fcfb1041b661"  alt="" width="700"/>
 </p>
 
 
-&nbsp;&nbsp; Após a verificação, com o comando `sudo systemctl stop nginx`, o site saiu do ar, gerando a informação de "site fora do ar" no log e enviado um alerta para o servidor do Discord.
+&nbsp;&nbsp; Após a verificação, com o comando `sudo systemctl stop nginx`, o site sairá do ar, gerando a informação de "site fora do ar" no log e enviando um alerta para o servidor do Discord.
 
 
  *Site fora do ar:
@@ -185,7 +185,7 @@
 
  
 
-&nbsp;&nbsp; Para o site ser reativado foi usado o comando `sudo systemctl start ngnix`.
+&nbsp;&nbsp; Para o site ser reativado use o comando `sudo systemctl start ngnix`.
 
 
  <img src="https://github.com/user-attachments/assets/6091d89b-6c4a-402a-8cad-2c7d21d9b54a"  alt="" width="700"/>
