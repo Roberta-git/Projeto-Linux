@@ -100,7 +100,8 @@
 
 #### 2.1. Conexão via ssh
 
-&nbsp;&nbsp; Após a configuração do ambiente, usando o terminal, abra uma conexão no servidor da AWS via SSH através da chave privada e o Ip elástico e realizae a instalação do Nginx por meio dos seguintes comandos:
+&nbsp;&nbsp; Após a configuração do ambiente, usando o terminal, abra uma conexão no servidor da AWS via SSH através da chave privada e o Ip elástico `ssh -i chave.pem ubuntu@ip`
+e realizae a instalação do Nginx por meio dos seguintes comandos:
 
   *`sudo apt update`
   
