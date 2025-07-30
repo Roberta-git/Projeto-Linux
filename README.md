@@ -78,8 +78,8 @@
 &nbsp;&nbsp; *Par de chaves (que será usado mais tarde, quando trabalharmos com o terminal).
 
 
-<img width="899" height="838" alt="image" src="https://github.com/user-attachments/assets/96015a2d-b599-4370-bf51-db1bfd37bd01" />
-
+<img src="https://github.com/user-attachments/assets/1ff73393-847d-4afd-9ca3-b79a18fe93f7"  alt="" width="700"/>
+</p>
 
 &nbsp;&nbsp; Para a configuração de Rede:
 
@@ -88,6 +88,10 @@
 &nbsp;&nbsp; Habilite o IP automático
 
 &nbsp;&nbsp; Configure o Grupo de Segurança, liberando uma porta 22(SSH) com o tipo de origem "Meu Ip" e uma porta 80(HTTP) como o tipo de origem "Qualquer lugar".
+
+
+<img src="https://github.com/user-attachments/assets/1ff73393-847d-4afd-9ca3-b79a18fe93f7"  alt="" width="700"/>
+</p>
 
 
 
