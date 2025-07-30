@@ -25,15 +25,26 @@
 
 ### 1. Configuração do ambiente
 
-1.1. Criação da VPC e sub-redes
+1.1. Criação da VPC 
 
-&nbsp;&nbsp; Para criar a VPC, acesse o painel VPC no console da AWS e clique em criar VPC. 
+&nbsp;&nbsp; Para criar a VPC, acesse o painel VPC no console da AWS e clique em "Criar VPC". 
 
 &nbsp;&nbsp; *Insira um nome para sua VPC e um Ip (terminar)
 
 
  <img src="https://github.com/user-attachments/assets/903117d2-ce77-44e7-a7cb-d584e6aec882"  alt="" width="700"/>
 </p>
+
+
+1.2 Criação das Sub-redes
+
+&nbsp;&nbsp; Acesse "Sub-redes" no painel da VPC e clique em "Criar sub-rede" e crie duas sub-redespúblicas e 2 sub-redes privadas.
+
+&nbsp;&nbsp; *Nomeie a sub-rede, escolha uma zona de disponibilidade e um ip. 
+
+
+
+
 
 
 
