@@ -44,9 +44,25 @@
 
 
 
-<img src="https://github.com/user-attachments/assets/903117d2-ce77-44e7-a7cb-d584e6aec882"  alt="" width="700"/>
+<img src="https://github.com/user-attachments/assets/40cb4ca9-6341-4aa7-a239-90cd04d1b593"  alt="" width="700"/>
 </p>
 
+
+
+1.3 Criação e associação do Gateway e configuração da tabela de rotas
+
+&nbsp;&nbsp; Ainda no painel da VPC, vá em "Gateways de Internet", crie uma gateway com um nome simbólico e associe à VPC para permitir a conexão dos recursos com a internet.
+
+
+<img src="https://github.com/user-attachments/assets/40cb4ca9-6341-4aa7-a239-90cd04d1b593"  alt="" width="700"/>
+</p>
+
+
+&nbsp;&nbsp; Em "Tabela de Rotas", crie ou edite uma tabela, adicionando um destino para qualquer endereço Ip e o alvo (sua gateway).
+
+
+<img src="https://github.com/user-attachments/assets/40cb4ca9-6341-4aa7-a239-90cd04d1b593"  alt="" width="700"/>
+</p>
 
 
 
