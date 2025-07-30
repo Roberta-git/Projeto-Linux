@@ -34,6 +34,7 @@
 ### 2. Instalação do servidor Web
 
 2.1. Conexão via ssh
+
 &nbsp;&nbsp; Após a configuração do ambiente, usando o terminal, foi aberto uma conexão no servidor da AWS via SSH através da minha chave privada e o Ip elástico e realizado a instalação do Nginx por meio dos seguintes comandos:
 
   *`sudo apt update`
