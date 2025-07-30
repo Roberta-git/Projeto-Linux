@@ -25,7 +25,7 @@
 
 ### 1. Configuração do ambiente
 
-1.1. Criação da VPC 
+#### 1.1. Criação da VPC 
 
 &nbsp;&nbsp; Para criar a VPC, acesse o painel VPC no console da AWS e clique em "Criar VPC". 
 
@@ -36,7 +36,7 @@
 </p>
 
 
-1.2 Criação das Sub-redes
+#### 1.2 Criação das Sub-redes
 
 &nbsp;&nbsp; Acesse "Sub-redes" no painel da VPC e clique em "Criar sub-rede" e crie duas sub-redespúblicas e 2 sub-redes privadas.
 
@@ -49,7 +49,7 @@
 
 
 
-1.3 Criação e associação do Gateway e configuração da tabela de rotas
+#### 1.3 Criação e associação do Gateway e configuração da tabela de rotas
 
 &nbsp;&nbsp; Ainda no painel da VPC, vá em "Gateways de Internet", crie uma gateway com um nome simbólico e associe à VPC para permitir a conexão dos recursos com a internet.
 
@@ -65,7 +65,7 @@
 </p>
 
 
-1.4 Criação da Instância
+#### 1.4 Criação da Instância
 
 &nbsp;&nbsp; No painel da Ec2, clique em "Executar instância", e adicione:
 
@@ -98,7 +98,7 @@
 
 ### 2. Instalação do servidor Web
 
-2.1. Conexão via ssh
+#### 2.1. Conexão via ssh
 
 &nbsp;&nbsp; Após a configuração do ambiente, usando o terminal, abra uma conexão no servidor da AWS via SSH através da chave privada e o Ip elástico e realizae a instalação do Nginx por meio dos seguintes comandos:
 
@@ -117,7 +117,7 @@
 </p>
 
 
-2.2 Criação da página HTML
+#### 2.2 Criação da página HTML
 
 &nbsp;&nbsp; Para criar a página use o comando `sudo nano /var/www/html/index.html` para abrir o arquivo index e editar o código da página.
 
@@ -136,7 +136,7 @@
 
 ### 3. Monitoramento do script via Discord
 
-3.1 Criação do script
+#### 3.1 Criação do script
 
 &nbsp;&nbsp; Para a criação do script de monitoramento utilize o comando `sudo nano /usr/local/bin/monitorar_site.sh`.
 
@@ -146,7 +146,7 @@
 
 &nbsp;&nbsp; Para que o script possa ser executado, foi use o comando `sudo chmod +x /usr/local/bin/monitorar_site.sh`.
 
-3.2 Agendamento no crontab
+#### 3.2 Agendamento no crontab
 
 &nbsp;&nbsp; Para editar o arquivo de agendamento de tarefas foi utilize `sudo crontab -e` e insira o texto `* * * * * /usr/local/bin/monitorar_site.sh` que indica que o script de monitoramento rodará automaticamente a cada minuto.
 
