@@ -123,7 +123,7 @@ e realize a instalação do Nginx por meio dos seguintes comandos:
 &nbsp;&nbsp; Para criar a página use o comando `sudo nano /var/www/html/index.html` para abrir o arquivo index e editar o código da página.
 
 
-<img src="https://github.com/user-attachments/assets/5b1c8afa-5b5b-44f8-a745-0d061856018d"  alt="" width="700"/>
+<img src="https://github.com/user-attachments/assets/5f958469-c620-4dc4-8737-e6db5b69bbc5"  alt="" width="700"/>
 </p>
 
 
