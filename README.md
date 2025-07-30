@@ -25,10 +25,16 @@
 
 ### 1. Configuração do ambiente
 
-&nbsp;&nbsp; Na configuração do ambiente, foram criados a VPC(rede virtual privada), sub-redes (duas públicas e duas privadas), internt Gateway, tabelas de rotas e a instância (liberando portas 22 (SSH) e 80 (http)).
+1.1. Criação da VPC e sub-redes
 
- <img src="https://github.com/user-attachments/assets/87ce19e1-a15b-4309-b81a-5931c8450a05" alt="" width="700"/>
+&nbsp;&nbsp; Para criar a VPC, acesse o painel VPC no console da AWS e clique em criar VPC. 
+&nbsp;&nbsp; *Insira um nome para sua VPC e um Ip (terminar)
+
+
+ <img src="https://github.com/user-attachments/assets/5c8a6c20-23bd-48d8-8524-635f9da4486b"  alt="" width="700"/>
 </p>
+
+
 
 
 ### 2. Instalação do servidor Web
