@@ -4,7 +4,7 @@
 
 ### Índice
 
-  1. Configuração do de ambiente
+  1. Configuração do ambiente
   2. Instalação do servidor Web
   3. Monitoramento do script via Discord
   4. Teste e avaliação do programa
@@ -29,7 +29,7 @@
 
 &nbsp;&nbsp; Para criar a VPC, acesse o painel VPC no console da AWS e clique em "Criar VPC". 
 
-&nbsp;&nbsp; *Insira um nome para sua VPC e um Ip (terminar)
+&nbsp;&nbsp; *Insira um nome para sua VPC e um IP.
 
 
  <img src="https://github.com/user-attachments/assets/903117d2-ce77-44e7-a7cb-d584e6aec882"  alt="" width="700"/>
@@ -38,7 +38,7 @@
 
 #### 1.2 Criação das Sub-redes
 
-&nbsp;&nbsp; Acesse "Sub-redes" no painel da VPC e clique em "Criar sub-rede" e crie duas sub-redespúblicas e 2 sub-redes privadas.
+&nbsp;&nbsp; Acesse "Sub-redes" no painel da VPC e clique em "Criar sub-rede" e crie duas sub-redes públicas e 2 sub-redes privadas.
 
 &nbsp;&nbsp; *Nomeie a sub-rede, escolha uma zona de disponibilidade e um ip. 
 
@@ -58,7 +58,7 @@
 </p>
 
 
-&nbsp;&nbsp; Em "Tabela de Rotas", crie ou edite uma tabela, adicionando um destino para qualquer endereço Ip e o alvo (sua gateway).
+&nbsp;&nbsp; Em "Tabela de Rotas", crie ou edite uma tabela, adicionando um destino para qualquer endereço IP e o alvo (sua gateway).
 
 
 <img src="https://github.com/user-attachments/assets/1ff73393-847d-4afd-9ca3-b79a18fe93f7"  alt="" width="700"/>
@@ -100,7 +100,7 @@
 
 #### 2.1. Conexão via ssh
 
-&nbsp;&nbsp; Após a configuração do ambiente, usando o terminal, abra uma conexão no servidor da AWS via SSH através da chave privada e o Ip elástico `ssh -i chave.pem ubuntu@ip`
+&nbsp;&nbsp; Após a configuração do ambiente, usando o terminal, abra uma conexão no servidor da AWS via SSH através da chave privada e o IP elástico `ssh -i chave.pem ubuntu@ip`
 e realizae a instalação do Nginx por meio dos seguintes comandos:
 
   *`sudo apt update`
@@ -147,14 +147,14 @@ e realizae a instalação do Nginx por meio dos seguintes comandos:
 
 &nbsp;&nbsp; Para que o script possa ser executado, foi use o comando `sudo chmod +x /usr/local/bin/monitorar_site.sh`.
 
-#### 3.2 Agendamento no crontab
+#### 3.2 Agendamento no Crontab
 
-&nbsp;&nbsp; Para editar o arquivo de agendamento de tarefas foi utilize `sudo crontab -e` e insira o texto `* * * * * /usr/local/bin/monitorar_site.sh` que indica que o script de monitoramento rodará automaticamente a cada minuto.
+&nbsp;&nbsp; Para editar o arquivo de agendamento de tarefas utilize `sudo crontab -e` e insira o texto `* * * * * /usr/local/bin/monitorar_site.sh` que indica que o script de monitoramento rodará automaticamente a cada minuto.
 
 
 ### 4. Teste e avaliação do programa
 
-&nbsp;&nbsp; Para testar o programa, verifique se o site está no ar através do comando `cat var/log/monitoramento.log`.
+&nbsp;&nbsp; Para testar o programa, verifique se o site está no ar através do comando `cat /var/log/monitoramento.log`.
 
 
 <img src="https://github.com/user-attachments/assets/37e69f70-ebb0-4c43-bfbd-fcfb1041b661"  alt="" width="700"/>
