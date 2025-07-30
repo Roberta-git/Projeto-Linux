@@ -40,7 +40,7 @@
 
 &nbsp;&nbsp; Acesse "Sub-redes" no painel da VPC e clique em "Criar sub-rede" e crie duas sub-redes públicas e 2 sub-redes privadas.
 
-&nbsp;&nbsp; *Nomeie a sub-rede, escolha uma zona de disponibilidade e um ip. 
+&nbsp;&nbsp; *Nomeie a sub-rede, escolha uma zona de disponibilidade e um IP. 
 
 
 
@@ -101,7 +101,7 @@
 #### 2.1. Conexão via ssh
 
 &nbsp;&nbsp; Após a configuração do ambiente, usando o terminal, abra uma conexão no servidor da AWS via SSH através da chave privada e o IP elástico `ssh -i chave.pem ubuntu@ip`
-e realizae a instalação do Nginx por meio dos seguintes comandos:
+e realize a instalação do Nginx por meio dos seguintes comandos:
 
   *`sudo apt update`
   
