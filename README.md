@@ -131,7 +131,7 @@ e realize a instalação do Nginx por meio dos seguintes comandos:
 *Página carregada do site:
 
 
-<img src="https://github.com/user-attachments/assets/f957967e-13c4-498c-a3c0-a47b8fe7ad45"  alt="" width="700"/>
+<img src="https://github.com/user-attachments/assets/52a06ade-fb15-4a89-8c5d-38ad16a48a3c"  alt="" width="700"/>
 </p>
 
 
