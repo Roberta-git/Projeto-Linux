@@ -78,16 +78,16 @@
 &nbsp;&nbsp; *Par de chaves (que será usado mais tarde, quando trabalharmos com o terminal).
 
 
-<img src="https://github.com/user-attachments/assets/1ff73393-847d-4afd-9ca3-b79a18fe93f7"  alt="" width="700"/>
+<img src="https://github.com/user-attachments/assets/c21f4161-c437-4657-b6a8-eb344145fde3"  alt="" width="700"/>
 </p>
 
 &nbsp;&nbsp; Para a configuração de Rede:
 
 &nbsp;&nbsp; *Selecione a VPC e a sub-rede pública
 
-&nbsp;&nbsp; Habilite o IP automático
+&nbsp;&nbsp; *Habilite o IP automático
 
-&nbsp;&nbsp; Configure o Grupo de Segurança, liberando uma porta 22(SSH) com o tipo de origem "Meu Ip" e uma porta 80(HTTP) como o tipo de origem "Qualquer lugar".
+&nbsp;&nbsp; *Configure o Grupo de Segurança, liberando uma porta 22(SSH) com o tipo de origem "Meu Ip" e uma porta 80(HTTP) como o tipo de origem "Qualquer lugar".
 
 
 <img src="https://github.com/user-attachments/assets/1ff73393-847d-4afd-9ca3-b79a18fe93f7"  alt="" width="700"/>
