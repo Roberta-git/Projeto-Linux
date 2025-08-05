@@ -141,7 +141,7 @@ e realize a instalação do Nginx por meio dos seguintes comandos:
 
 &nbsp;&nbsp; Para a criação do script de monitoramento utilize o comando `sudo nano /usr/local/bin/monitorar_site.sh`.
 
-<img src="https://github.com/user-attachments/assets/890e2aba-ca30-4a22-9889-655df4442040"  alt="" width="700"/>
+<img src=""  alt="" width="700"/>
 </p>
 
 
